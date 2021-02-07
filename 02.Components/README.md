@@ -20,7 +20,7 @@ Lets take a look at some examples.
 ```js
 class HelloWorld extends React.Component {
   render() {
-    return <h1>Hello World</h1>;
+    return <h1>Hello World!</h1>;
   }
 }
 ```
@@ -31,7 +31,7 @@ Class components are ES6 classes that have a `render` method that returns some J
 
 ```js
 function HelloWorld() {
-  return <h1>Hello World</h1>;
+  return <h1>Hello World!</h1>;
 }
 ```
 
@@ -47,7 +47,7 @@ We can interpolate javascript values into JSX by using the `{}` syntax.
 
 ```js
 const name = "World";
-const element = <h1>hello {name}</h1>;
+const element = <h1>Hello {name}!</h1>;
 ```
 
 This element would render as
@@ -62,7 +62,7 @@ We can even interpolate functions that return JSX
 const getName = () => {
   return "World";
 };
-const element = <h1>hello {getName()}</h1>;
+const element = <h1>Hello {getName()}!</h1>;
 ```
 
 This element would render as
@@ -81,7 +81,7 @@ For example:
 const name = "World";
 const element = (
   <h1 className="title" title={name}>
-    Hello {name}
+    Hello {name}!
   </h1>
 );
 ```
@@ -89,7 +89,7 @@ const element = (
 This would render
 
 ```html
-<h1 class="title" title="World">Hello World</h1>
+<h1 class="title" title="World">Hello World!</h1>
 ```
 
 JSX elements with a lowercase first letter will always represent DOM nodes. `<h1>`, `<div>`, `<span>` etc will all render
@@ -101,7 +101,7 @@ For example if we have this component
 
 ```js
 function HelloWorld() {
-  return <h1>Hello World</h1>;
+  return <h1>Hello World!</h1>;
 }
 ```
 
@@ -118,7 +118,7 @@ const element = (
 This would render:
 
 ```html
-<div><h1>Hello World</h1></div>
+<div><h1>Hello World!</h1></div>
 ```
 
 Any attibutes that we pass into our component JSX element get passed into the component function as what we call `props`.
@@ -151,6 +151,10 @@ class HelloWorld extends React.Component {
   }
 }
 ```
+
+### The `Children` Prop
+
+... WIP ...
 
 Okay it feels like we've covered a lot of ground here. There are some additional nueances you will come
 across when using JSX and defining components but this is the fundamentals.
