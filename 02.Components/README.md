@@ -3,10 +3,10 @@
 ## What are components?
 
 Components are the building blocks of a React application. There are a couple of ways
-you can write a component class based components and functional components. Functional
-components are a more modern approach although you should still spend some time to understand
-class based components because (one) it gives you some useful legacy knowledge about react and (two)
-in your day job you will likely come across some legacy React project that uses class components
+you can write a component. Class Components and Functional Components. Functional
+Components are a more modern approach although you should still spend some time to understand
+Class Components because (one) it gives you some useful legacy knowledge about react and (two)
+in your day job you will likely come across some legacy React project that uses Class Components
 and it's better to be prepared!
 
 As stated previously components are little bite sized chunks that make up and application.
