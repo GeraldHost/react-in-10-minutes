@@ -1,4 +1,4 @@
-# React in 10 Minutes
+# WIP React in 10 Minutes
 
 ### All you need to know to get started with React writen in 10, 10 minute modules
 
