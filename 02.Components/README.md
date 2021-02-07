@@ -37,7 +37,7 @@ function HelloWorld() {
 
 Functional components are just normal javascript functions that return JSX.
 
-### What is JSX?
+## What is JSX?
 
 We can't talk about React components without talking about JSX. JSX is kind of like a templating
 language that is an extention of Javascript. All React components return JSX which gets rendered as
