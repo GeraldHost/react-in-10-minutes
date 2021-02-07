@@ -29,11 +29,9 @@ Class components are ES6 classes that have a `render` method that returns some J
 
 ### Functional Components
 
-```
+```js
 function HelloWorld() {
-  return (
-    <h1>Hello World</h1>
-  );
+  return <h1>Hello World</h1>;
 }
 ```
 
@@ -101,11 +99,9 @@ However elements can also represent components if we define them with a capital 
 
 For example if we have this component
 
-```
+```js
 function HelloWorld() {
-  return (
-    <h1>Hello World</h1>
-  );
+  return <h1>Hello World</h1>;
 }
 ```
 
@@ -140,11 +136,9 @@ const element = (
 
 `name` gets passed to our Hello World component in the props object and we can reference it like so:
 
-```
+```js
 function HelloWorld(props) {
-  return (
-    <h1>Hello {props.name}</h1>
-  );
+  return <h1>Hello {props.name}</h1>;
 }
 ```
 
