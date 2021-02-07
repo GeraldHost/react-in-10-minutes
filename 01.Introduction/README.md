@@ -1,8 +1,5 @@
 # 1. Introduction
 
-- What is react
-- Create react app
-
 ## What is React
 
 As per their [website](https://reactjs.org/) react is "A library for building user interfaces".
